@@ -91,7 +91,6 @@ const BoardListItem = ({
         switchBoard(board.id);
       }}
     >
-      {/* <div className={`py-2 text-sm flex items-center justify-between gap-2`}> */}
       <div
         className="h-3.5 w-3.5 flex-shrink-0 rounded-full"
         style={{ backgroundColor: board.color }}
@@ -123,7 +122,6 @@ const BoardListItem = ({
           </div>
         </div>
       )}
-      {/* </div> */}
     </li>
   );
 };

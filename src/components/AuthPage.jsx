@@ -22,7 +22,6 @@ const AuthPage = ({ login = true }) => {
 
   const toggleMode = () => {
     setIsLogin(!isLogin);
-    // Reset form fields when switching modes
     setName("");
     setEmail("");
     setPassword("");

@@ -60,7 +60,6 @@ export default function HomePage() {
             <MdExpandMore size={48} />
           </div>
 
-          {/* Feature Cards */}
           <div
             ref={featureSection}
             className="px-6 py-12 space-y-4"

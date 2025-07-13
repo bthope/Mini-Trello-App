@@ -4,6 +4,7 @@ import { DarkModeToggle } from "../shared/DarkModeToggle";
 import { DropDownMenu } from "./";
 import { useAuth, useBoardContext, useTheme } from "../../contexts";
 import { useNavigate } from "react-router-dom";
+import logo from "../../assets/logo.png"; // Assuming logo.png is in the assets folder
 
 export const Navbar = () => {
   const { isLoggedIn, handleLogout } = useAuth();
@@ -28,8 +29,8 @@ export const Navbar = () => {
         className="flex items-center gap-1 cursor-pointer"
         onClick={() => navigate("/")}
       >
-        <FaTrello size={20} />
-        <h1 className="text-lg font-bold text-center">Planero</h1>
+        <img src={logo} alt="Mini-Trello Logo" className="w-8 h-8" />
+        <h1 className="text-lg font-bold text-center">Mini-Trello</h1>
       </div>
       <section className="flex justify-evenly items-center gap-3">
         <DarkModeToggle />
@@ -38,7 +39,7 @@ export const Navbar = () => {
              hover:shadow-lg hover:bg-bg-hover transition-all"
         >
           <a
-            href="https://github.com/mksonkar/planero-trello-clone-react"
+            href="https://github.com/bthope/Mini-Trello-App.git"
             target="_blank"
           >
             <LuGithub size={26} />
