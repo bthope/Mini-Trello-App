@@ -36,11 +36,11 @@ export default function HomePage() {
           <div className="text-center space-y-10 my-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-text-primary sm:text-5xl md:text-6xl">
               <span className="block">Organize your ideas with</span>
-              <span className="block text-blue-600">Planero</span>
+              <span className="block text-blue-600">Mini-Trello</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-text-secondary sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              The simple, flexible, and powerful way to manage your projects.
-              Collaborate with your team, track tasks, and achieve your goals.
+              The smart, adaptable, and robust solution for managing your projects.
+              Empower your team, streamline task tracking, and drive your goals to success.
             </p>
             <div className="mt-10 flex justify-center gap-4">
               <button

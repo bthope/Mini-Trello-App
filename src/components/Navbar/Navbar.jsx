@@ -5,6 +5,7 @@ import { DropDownMenu } from "./";
 import { useAuth, useBoardContext, useTheme } from "../../contexts";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.png"; // Assuming logo.png is in the assets folder
+import { LuBell } from "react-icons/lu";
 
 export const Navbar = () => {
   const { isLoggedIn, handleLogout } = useAuth();
@@ -42,7 +43,8 @@ export const Navbar = () => {
             href="https://github.com/bthope/Mini-Trello-App.git"
             target="_blank"
           >
-            <LuGithub size={26} />
+            {/* <LuGithub size={26} /> */}
+             <LuBell size={26} />
           </a>
         </button>
         {isLoggedIn ? (

@@ -101,7 +101,7 @@ export const Sidebar = () => {
             <EmptyBoardMessage />
           )}
           <div className="mt-auto">
-            <GithubButton link="https://github.com/bthope/Mini-Trello-App.git" />
+            <GithubButton link="https://github.com/bthope" />
           </div>
         </div>
       )}
